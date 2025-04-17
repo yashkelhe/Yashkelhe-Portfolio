@@ -402,9 +402,28 @@
         <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
           <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+        <!-- <script type="module" src="./roleScript.js"></script> -->
+        <script type="module" src="./scrollToTop.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-      <script type="module" src="./roleScript.js"></script>
-     <script type="module" src="./scrollToTop.js"></script>
+     <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Typed(".role", {
+      strings: [
+        "a Full Stack Developer",
+        "a Web Developer",
+        "a UI-UX Designer",
+        "a Backend Developer",
+        "a Coder",
+        "Yash Kelhe",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  });
+</script>
+
 </body>
 
 </html>
